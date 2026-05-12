@@ -1,16 +1,18 @@
-# farmer1
+# Farmer's Market Price Alert App
 
-A new Flutter project.
+A Flutter-based mobile application designed to help farmers access real-time crop/mandi prices, weather updates, agricultural news, and instant market alerts.
 
-## Getting Started
+## Features
+- Real-time crop price monitoring
+- Price alert notifications
+- Weather updates
+- Agricultural news
+- User authentication
+- Profile management
+- Dark mode UI
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+Flutter | Dart | Firebase | Firestore | REST API | Firebase Authentication
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## GitHub Repository
+https://github.com/MdIbrahimMN/farmers-market-price-alert-app

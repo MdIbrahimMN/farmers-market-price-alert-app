@@ -1,0 +1,25 @@
+import org.gradle.api.tasks.Delete
+import org.gradle.api.file.Directory
+
+plugins {
+    id("com.google.gms.google-services") version "4.4.2" apply false
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+val newBuildDir = rootProject.layout.buildDirectory.dir("../../build").get()
+rootProject.layout.buildDirectory.value(newBuildDir)
+
+subprojects {
+    layout.buildDirectory.value(newBuildDir.dir(name))
+    evaluationDependsOn(":app")
+}
+
+tasks.register<Delete>("clean") {
+    delete(rootProject.layout.buildDirectory)
+}

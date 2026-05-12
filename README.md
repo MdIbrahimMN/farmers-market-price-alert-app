@@ -16,3 +16,8 @@ Flutter | Dart | Firebase | Firestore | REST API | Firebase Authentication
 
 ## GitHub Repository
 https://github.com/MdIbrahimMN/farmers-market-price-alert-app
+
+## APK Demo Download
+
+📱 Try the Android APK:
+https://drive.google.com/file/d/YOUR_LINK/view?usp=sharing

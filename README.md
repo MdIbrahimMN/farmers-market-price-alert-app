@@ -12,7 +12,7 @@ A Flutter-based mobile application designed to help farmers access real-time cro
 - Dark mode UI
 
 ## Tech Stack
-Flutter | Dart | Firebase | Firestore | REST API | Firebase Authentication
+Flutter | Dart | Firebase Authentication | Firestore | REST API Integration | Weather API | Cloudinary API | Firebase Cloud Messaging (FCM) | Google Sign-In | State Management | UI/UX Design
 
 ## GitHub Repository
 https://github.com/MdIbrahimMN/farmers-market-price-alert-app
